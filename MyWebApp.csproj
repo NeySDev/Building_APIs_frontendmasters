@@ -1,0 +1,16 @@
+<!-- Agrupación de todos los archivos que son relevantes para el sitio WEB -->
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+  <!-- Definiendo el Framework que se utiliza para el sitio web -->
+    <TargetFramework>net9.0</TargetFramework> 
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+<!-- Referencia a dependencias instaladas -->
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="9.0.0" />
+  </ItemGroup>
+
+</Project>
